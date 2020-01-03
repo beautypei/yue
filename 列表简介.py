@@ -60,3 +60,19 @@ print(cars)
 cars = ['bnw','audi','toyota','subaru']
 cars.sort(reverse=True)#向sort方法传递参数reverse=True，实现倒序排列
 print(cars)
+
+cars = ['bnw','audi','toyota','subaru']
+print('Here is the original list:')
+print(cars)
+print(sorted(cars))#以特定的顺序排列元素，但不改变原有的元素顺序
+print(cars)
+
+cars = ['bnw','audi','toyota','subaru']
+cars.reverse()#倒着打印列表元素
+print(cars)
+cars.reverse()#再次使用该方法可以恢复原有的列表顺序
+print(cars)
+
+cars = ['bnw','audi','toyota','subaru']
+print(len(cars))#确定列表的长度
+
