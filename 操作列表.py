@@ -47,3 +47,9 @@ squares = []
 for value in range(1,21):
     squares.append(value)
 print(squares) #练习，打印列表的1-20
+
+players = ['charles','martina','michael','florence','eli']
+print(players[0:3])#索引只会把列表的0、1、2的元素查找出来
+print(players[1:4])#索引1、2、3的元素
+print(players[:4])#没有指定其实就从开头提取
+print(players[2:])#从第三个元素开始到末尾
