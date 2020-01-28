@@ -1,3 +1,5 @@
+
+
 magicians = ['alice','david','carolina']
 for magician in magicians:
     print(magician) #将列表中的元素循环存储到magician中并打印出来
@@ -53,3 +55,21 @@ print(players[0:3])#索引只会把列表的0、1、2的元素查找出来
 print(players[1:4])#索引1、2、3的元素
 print(players[:4])#没有指定其实就从开头提取
 print(players[2:])#从第三个元素开始到末尾
+print(players[-3:])#打印列表的最后三个元素
+
+players = ['charles','martina','michael','florence','eli']
+print(' Here are the first three players on my team:')
+for player in players[:3]:
+    print(player.title())#用for循环打印列表的前三个元素
+
+
+my_foods = ['pizza','falafel','carrot cake']
+friend_foods = my_foods[:]
+my_foods.append('cannoli')
+friend_foods.append('ice cream')
+print('my favorite foods are:')
+print(my_foods)
+print('\nmy friend favorite foods are:')
+print(friend_foods)#复制一个列表在两个列表中都添加元素，并打印两个列表
+
+
