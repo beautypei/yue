@@ -71,5 +71,25 @@ print('my favorite foods are:')
 print(my_foods)
 print('\nmy friend favorite foods are:')
 print(friend_foods)#复制一个列表在两个列表中都添加元素，并打印两个列表
+#####不可变的列表称为元组
+
+dimensions = (200,50)
+print(dimensions[0])#创建一个元组,并打印元组中的元素
+print(dimensions[1])
+
+dimensions = (200,50)
+for dimension in dimensions:
+    print(dimension)#for循环打印元组的元素
+
+dimensions = (200,50)
+print('Original dimensions:')
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (400,100)#定义了一个新的元组
+print('Modified dimension:')
+for dimension in dimensions:
+    print(dimension)
+
 
 
