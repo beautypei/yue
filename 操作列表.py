@@ -91,5 +91,3 @@ print('Modified dimension:')
 for dimension in dimensions:
     print(dimension)
 
-
-
