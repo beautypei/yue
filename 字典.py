@@ -38,3 +38,20 @@ alien_0 = {'color':'green','points':5}
 print(alien_0)
 del alien_0['points'] #删除键值对，永久删除
 print(alien_0)
+
+user_0 = {
+    'username':'efemi',
+    'first':'enrico',
+    'last':'femi',
+}
+for key,value in user_0.items(): #for循环遍历列表
+    print('\nkey: ' + key)
+    print('value:' + value)
+favorite_languages = {
+    'jen':'python',
+    'sarah':'c',
+    'edward':'ruby',
+    'phil':'python',
+}
+for name in sorted(favorite_languages.keys()): #按顺序遍历字典中的所有
+    print(name.title() + ", thank you for taking the poll.")
